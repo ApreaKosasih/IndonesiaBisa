@@ -303,7 +303,7 @@
   margin-top: 30px;
   border-radius: 10px;
   padding: 20px 10px;
-  background-image: linear-gradient(to bottom right, rgb(24, 153, 228), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to bottom right, white, rgb(120, 216, 245));
 }
 
 .panel-utama h4{
@@ -311,6 +311,19 @@
   text-transform: uppercase;
   margin-bottom: 30px;
 
+}
+
+.isi-panel{
+  border-radius: 10px;
+  margin: 0px 20px;
+}
+
+.isi-panel h5{
+  margin: 20px;
+}
+
+.isi-panel img{
+  margin: 20px;
 }
 
 /* Utility */
