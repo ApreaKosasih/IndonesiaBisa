@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- My Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Roboto|Ubuntu|Viga" rel="stylesheet">
+
+
+
+    <title>IndonesiaBisa!</title>
+  </head>
+  <body style="background-color:#E6E6FA">
+      <!-- Navbar -->
+      <nav class="shadow-sm p-1 navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/Asset 2.png" width="35px" height="35px" alt=""> IndonesiaBisa
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Buat Iklan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cari Kandidat</a>
+              </li>
+            </ul>
+            <div class="user-area dropdown float-right">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Admin Perusahaan</span>
+                  <img class="user-avatar rounded-circle" src="img/user.png" width="30px" height="30px" alt="User Avatar">
+              </a>
+              <div class="user-menu dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link" href="#"><i class="fa fa- user"></i>Profile</a>
+
+                  <a class="nav-link" href="#"><i class="fa fa- user"></i>Pemberitahuan</a>
+
+                  <a class="nav-link" href="#"><i class="fa fa-power -off"></i>Keluar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Akhir Navbar -->
+
+      <!-- Judul Form -->
+      <div class="latar">
+        <div class="container">
+            <div class="row bg-light shadow-sm p-3">
+              <div class="col">
+                <h6>Buat / Ubah Iklan Lowongan Kerja</h6>
+                <div class="tombol-iklan float-right"><button type="button" class="btn tombol1" data-toggle="modal" data-target="#exampleModal">Tinjau Iklan</button></div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- Akhir Judul Form -->
+      
+      <!-- form1 -->
+      <div class="latar">
+          <div class="container">
+              <div class="row bg-light shadow-sm p-3">
+                <div class="col">
+                    <h6>Detail Pekerjaan</h6>
+                    <br>
+                    <form>
+                      <div class="form-group row">
+                        <label for="inputdivisi" class="col-sm-2 col-form-label">Nama Divisi</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputdivisi" placeholder="marketing, engineer, etc">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="exampleFormControlSelect1" class="col-sm-2 col-form-label">Jam Kerja</label>
+                        <div class="col-sm-10">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="exampleFormControlSelect2" class="col-sm-2 col-form-label">Posisi Jabatan</label>
+                        <div class="col-sm-10">
+                        <select class="form-control" id="exampleFormControlSelect2">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="exampleFormControlSelect3" class="col-sm-2 col-form-label">Keahlian Khusus</label>
+                        <div class="col-sm-10">
+                        <select class="form-control" id="exampleFormControlSelect3">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputlokasi" class="col-sm-2 col-form-label">Lokasi</label>
+                        <div class="col-sm-5">
+                          <input type="text" class="form-control" id="inputlokasi" placeholder="jalan. No.">
+                        </div>
+                        <div class="col-sm-5">
+                          <select class="form-control" id="inputlokasi">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                          </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputgaji" class="col-sm-2 col-form-label">Gaji / Bayaran</label>
+                        <div class="col-sm-3">
+                          <input type="text" class="form-control" id="inputgajimin" placeholder="min">
+                        </div>
+                        <div class="col-sm-3">
+                          <input type="text" class="form-control" id="inputgajimax" placeholder="max">
+                        </div>
+                      </div>
+                    </form>
+                </div>
+              </div>
+          </div>
+        </div>
+      <!-- akhir form1 -->
+
+      <!-- form2 -->
+      <div class="latar">
+          <div class="container">
+              <div class="row bg-light shadow-sm p-3">
+                <div class="col">
+                    <h6>Detail Kandidat Yang Dibutuhkan</h6>
+                    <br>
+                    <form>
+                      <div class="form-group row">
+                        <label for="inputdivisi" class="col-sm-2 col-form-label">Lulusan Terakhir</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputdivisi" placeholder="marketing, engineer, etc">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="exampleFormControlSelect1" class="col-sm-2 col-form-label">Jurusan</label>
+                        <div class="col-sm-10">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="exampleFormControlSelect2" class="col-sm-2 col-form-label">Tahun Lulus</label>
+                        <div class="col-sm-10">
+                        <select class="form-control" id="exampleFormControlSelect2">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="exampleFormControlSelect3" class="col-sm-2 col-form-label">Keahlian</label>
+                        <div class="col-sm-10">
+                        <select class="form-control" id="exampleFormControlSelect3">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+              </div>
+          </div>
+        </div>
+      <!-- akhir form2 -->
+
+      <!-- form3 -->
+      <div class="latar3">
+          <div class="container">
+              <div class="row bg-light shadow-sm p-3">
+                <div class="col">
+                    <h6>Deskripsi</h6>
+                    <br>
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Keterangan</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    </form>
+                </div>
+              </div>
+          </div>
+        </div>
+      <!-- akhir form3 -->
+
+      <!-- footer -->
+      <div class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col bottom-left">
+                      Temukan kami
+                      <div class="icon-sosmed">
+                          <a href="#"><img src="img/facebook.png"></a>
+                          <a href="#"><img src="img/google.png"></a>
+                          <a href="#"><img src="img/twitter.png"></a>
+                      </div>
+                  </div>
+                  <div class="col bottom-content">
+                      <a href="#" class="bottom-link">Site Map</a> -
+                      <a href="#" class="bottom-link">Tentang Kami</a> -
+                      <a href="#" class="bottom-link">Berkarir Bersama Kami</a> -
+                      <a href="#" class="bottom-link">Ketentuan Penggunaan</a> -
+                      <a href="#" class="bottom-link">Bantuan</a> -
+                      <a href="#" class="bottom-link">Kirim Saran</a>
+                  </div>
+                  <div class="col bottom-right">
+                      <img src="img/Asset 2.png" class="logo-footer">
+                  </div>
+              </div>
+          </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>

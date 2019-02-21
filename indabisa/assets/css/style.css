@@ -1,0 +1,209 @@
+body {
+    background: #faf7fa;
+}
+.navbar {
+    /*background: #7ed5f0!important;*/
+    background: #43c3ea!important;
+    color: white!important;
+}
+.bg-blue {
+    background: #43c3ea!important;
+}
+.cwhite, cwhite:hover {
+    color: white!important;
+}
+.cblue {
+    color: #43c3ea;
+}
+.menu-link {
+    color: white!important;
+}
+.navbar {
+    padding: unset;
+}
+.nav-item {
+    padding: 10px;
+    color:white!important;
+}
+.nav-item:hover {
+    background: #1197bf;
+}
+.top-content {
+    background: #faf7fa!important;
+    padding: 50px 0;
+}
+.content {
+    background: white!important;
+    padding: 10px 0;
+    border: 2px solid #b0b0b0;
+    margin: 35px 0;
+}
+.me-box-scale {
+    transition: transform .2s;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    border: 2px solid #b0b0b0;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+    padding: 15px;
+}
+.icon-top-content {
+    font-size: 55px;
+}
+.search {
+    background: #d3e1e0;
+    border: 2px solid #aaabaf;
+    padding: 40px 20px 35px 20px;
+    border-radius: 5px;
+}
+.form-control {
+    height: 50px;
+}
+.me-box-scale:hover {
+    background: #43c3ea;
+    color: white!important;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.p50 {
+    padding-top: 50px
+}
+.navbar-toggler-icon {
+    color: white!important;
+}
+.alert-search {
+    width: 100%;
+    background: white;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+.title-content {
+    text-align: center;
+    color: #b0b0b0;
+    font-size: 25px;
+}
+.title-border {
+    border-top: 1px solid #b0b0b0;
+    margin: 10px 50px 0 50px;
+}
+.me-box {
+    width: 100%;
+    height: 250px;
+    margin: 15px 0;
+    border: 1px solid #b0b0b0;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+    padding: 15px;
+}
+.elipsis {
+    text-align: right;
+    font-size: 25px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.detail-info {
+    text-align: left;
+    color: #b0b0b0;
+    font-size: 13px;
+}
+.img-info {
+    float: left;
+    padding-right: 15px;
+}
+.img-info>img {
+    width: 50px
+}
+.gaji-info {
+    font-size: 14px;
+    color: #b0b0b0;
+    padding: 20px 0;
+    text-align: left;
+}
+.icon-clock {
+    color: yellow;
+    font-size: 20px;
+}
+.time-info {
+    text-align: left;
+    font-size: 14px;
+    color: #b0b0b0;
+}
+.detail-action {
+    width: 100%;
+    padding-top: 15px;
+}
+.btn-simpan {
+    border: 2px solid #1197bf;
+    width: 40%;
+    font-size: 12px;
+}
+.btn-lamar {
+    border: 2px solid #1197bf;
+    width: 40%;
+    font-size: 12px;
+    background: #1197bf;
+    color: white;
+}
+.btn-more {
+    text-align: center;
+    border: 1px solid #1197bf;
+    padding: 10px 25px;
+    font-size: 12px;
+    color: #1197bf!important;
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+    nav {
+        padding-top: 100px;
+    }
+    .navbar {
+        padding: 15px;
+    }
+}
+
+
+.img-char {
+    width: 30px;
+}
+.header-logo {
+    padding: 15px;
+    width: 100%;
+    background: white;
+}
+.logo {
+    width: 250px;
+}
+.logo-footer {
+    width: 180px;
+}
+.bottom-link {
+    color: #b0b0b0;
+    font-size: 14px;
+}
+.bottom-content {
+    text-align: center;
+}
+.footer {
+    background: #f1f1f1;
+    padding: 25px 0;
+    border-top: 1px solid #b0b0b0;
+}
+.bottom-left {
+    text-align: left;
+}
+.bottom-right {
+    text-align: right;
+}
+.icon-sosmed>a>img {
+    width: 33px;
+    padding: 2px;
+}
+.box-custom {
+    height: unset;
+    text-align: left;
+}

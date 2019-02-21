@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- My Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Roboto|Ubuntu" rel="stylesheet">
+
+    <title>IndonesiaBisa!</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <div class="shadow-sm p-1 topnav">
+      <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/Asset 1.png" width="260" height="30" alt="">
+          </a>
+        <div class="login-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Username" name="username">
+            <input type="text" placeholder="Password" name="psw">
+            <button type="submit">GO!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Dapatkan kandidat <span>terbaik</span><br> dan pasang <span>iklan</span> dengan <span>mudah</span></h1>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn tombol" data-toggle="modal" data-target="#exampleModal">Daftar</button>
+      </div>
+    </div>
+    <!-- akhir jumbotron -->
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Info Panel -->
+      <div class="row justify-content-center">
+        <div class="col-10 info-panel">
+          <div class="row">
+            <div class="col-lg">
+              <img src="img/sign-in (1).png" alt="Register" class="float-left">
+              <h4>Daftar Sekarang</h4>
+              <p>Dapatkan gratis pasang iklan selama 3 bulan pertama dengan mebuat akun sekarang juga !.</p>
+            </div>
+            <div class="col-lg">
+              <img src="img/create (1).png" alt="Create" class="float-left">
+              <h4>Buat Iklan</h4>
+              <p>Buat iklan dengan mudah untuk menarik para kandidat yang berkualitas, ayo tunggu apalagi.</p>
+            </div>
+            <div class="col-lg">
+              <img src="img/leader (1).png" alt="Search" class="float-left">
+              <h4>Cari Kandidat</h4>
+              <p>Kandidat terbaik berkumpul disini dengan berbagai karya nya yang menarik, sambut mereka di perusahaan anda.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Akhir Info Panel -->
+
+    </div>
+    <!-- Akhir Container -->
+        
+      <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title w-100 font-weight-bold">Daftar Sebagai Perusahaan</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <!-- form Registrasi -->
+                <form>
+                    <div class="form-row justify-content-center">
+                      <div class="form-group col-12">
+                        <input type="text" class="form-control" id="inputUsername" placeholder="Nama Admin">
+                      </div>
+    
+                      <div class="form-group col-12">
+                        <input type="text" class="form-control" id="inputPerusahaan" placeholder="Nama Perusahaan">
+                      </div>
+    
+                      <div class="form-group col-12">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                      </div>
+    
+                      <div class="form-group col-12">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Kata Sandi">
+                      </div>
+    
+                      <div class="form-group col-12">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Alamat">
+                      </div>
+                    </div>
+                    <div class="form-row justify-content-center">
+                      <div class="form-group col-4">
+                        <label for="inputCity">Kota / Kabupaten</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Pilih...</option>
+                            <option>...</option>
+                          </select>
+                      </div>
+                      <div class="form-group col-4">
+                        <label for="inputState">Kecamatan</label>
+                        <select id="inputState" class="form-control">
+                          <option selected>Pilih...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-4">
+                        <label for="inputZip">Kode Pos</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Pilih...</option>
+                            <option>...</option>
+                          </select>
+                      </div>
+                      
+                      <button type="submit" class="tombol">GO !</button>
+                    </div>
+                  </form>
+                  <!-- Akhir form Registrasi -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- akhir modal -->
+
+      
+
+        <!-- workingspace -->
+        <div class="workingspace">
+          <div class="container">
+          <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <h3>Pencarian Kandidat</h3>
+            <img src="img/working.jpg" alt="Workingspace" class="img-fluid">
+            <p>Nikmati fitur pencarian untuk perusahaan yang menginginkan kandidat terbaiknya.</p>
+          </div>
+          <div class="col-lg-5">
+            <h3>Iklan Lowongan</h3>
+            <img src="img/rawpixel-678089-unsplash.jpg" alt="Workingspace" class="img-fluid">
+            <p>Pasang iklan anda sekarang juga, kandidat terbaik sedang menunggu.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- akhir workingspace -->
+
+      
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col bottom-left">
+                        Temukan kami
+                        <div class="icon-sosmed">
+                            <a href="#"><img src="img/facebook.png"></a>
+                            <a href="#"><img src="img/google.png"></a>
+                            <a href="#"><img src="img/twitter.png"></a>
+                        </div>
+                    </div>
+                    <div class="col bottom-content">
+                        <a href="#" class="bottom-link">Site Map</a> -
+                        <a href="#" class="bottom-link">Tentang Kami</a> -
+                        <a href="#" class="bottom-link">Berkarir Bersama Kami</a> -
+                        <a href="#" class="bottom-link">Ketentuan Penggunaan</a> -
+                        <a href="#" class="bottom-link">Bantuan</a> -
+                        <a href="#" class="bottom-link">Kirim Saran</a>
+                    </div>
+                    <div class="col bottom-right">
+                        <img src="img/Asset 2.png" class="logo-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
