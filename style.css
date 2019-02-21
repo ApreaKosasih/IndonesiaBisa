@@ -286,6 +286,19 @@
 }
 
 /* halaman dashboard */
+.panel-utama{
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 20px 10px;
+  background-image: linear-gradient(to bottom right, rgb(24, 153, 228), rgba(0, 0, 0, 0));
+}
+
+.panel-utama h4{
+  font-family: viga;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  
+}
 
 /* Utility */
 .tombol{
